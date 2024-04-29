@@ -1,0 +1,20 @@
+footer > ul > li {
+    margin: 30px;
+    float: inline-end;
+    list-style-type:circle;
+
+    & > a {
+        text-decoration: none;
+        color: var(--greenland-green);
+
+        &:hover {
+            border-bottom: 1px solid var(--deep-blue);
+        }
+    }
+}
+
+footer > ul:last-child > li  {
+    float: inline-start;
+    list-style: none;
+    color: var(--black-grey);
+}

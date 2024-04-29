@@ -1,0 +1,22 @@
+section {
+    width: 70%;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 6px;
+
+    & > header { 
+        padding: 0;
+        border-bottom: none;
+     }  
+
+    & > footer {
+        padding: 10px 0;
+
+        & > a {
+            color: var(--link-color);
+        }
+    } 
+}
